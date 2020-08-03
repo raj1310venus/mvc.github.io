@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>myvirtualclassroom</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+		<!-- JS, Popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+
+		<!-- MDBootstrap url's  -->
+
+
+			<!-- Font Awesome -->
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+			<!-- Google Fonts -->
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+			<!-- Bootstrap core CSS -->
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+			<!-- Material Design Bootstrap -->
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+
+			<!-- JQuery -->
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<!-- Bootstrap tooltips -->
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+			<!-- Bootstrap core JavaScript -->
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+			<!-- MDB core JavaScript -->
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+
+		<style type="text/css">
+
+				#abc123 {
+ 			 		background-image: linear-gradient(to right, #2bc0e4 , #eaecc6);
+
+				}
+
+
+				.modal-notify .modal-header {
+				    border-radius: 3px 3px 0 0;
+				}
+				.modal-notify .modal-content {
+				    border-radius: 3px;
+				}
+
+		</style>
+
+</head>
+
+
+<body>
+
+	<nav id="abc123" class="navbar fixed-top navbar-expand-lg navbar-light">
+
+		  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+		    		<span class="navbar-toggler-icon"></span>
+		  		</button>
+
+		  <a class="navbar-brand" href="#"><img src="C://Users//rathakur//Desktop//New app//New folder (2)//New folder//Product//edu1.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"><b>myvirtualclassroom</b></a>
+
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+			    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+					  &nbsp;			    	
+				      <li class="nav-item">
+				        <a class="nav-link" style="font-family: “Arial Rounded MT Bold”, “Helvetica Rounded”, Arial, sans-serif;" href="#"><i class="fa fa-university" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+				      </li>&nbsp;
+
+				      <li class="nav-item">
+				        <a class="nav-link" style="font-family: “Arial Rounded MT Bold”, “Helvetica Rounded”, Arial, sans-serif;" href="#"><i class="fa fa-desktop" aria-hidden="true"></i> Features</a>
+				      </li>&nbsp;
+
+				      
+				      <li class="nav-item">
+				        <a class="nav-link" style="font-family: “Arial Rounded MT Bold”, “Helvetica Rounded”, Arial, sans-serif;" href="#"><i class="fa fa-inr" aria-hidden="true"></i> Pricing</a>
+				      </li>&nbsp;
+
+				      <!-- use this in footer 
+				      <li class="nav-item">
+				        <a class="nav-link" style="font-family: “Arial Rounded MT Bold”, “Helvetica Rounded”, Arial, sans-serif;" href="#"><i class="fa fa-file-text" aria-hidden="true"></i> Feedback</a>
+				      </li>&nbsp;	 -->
+
+				      <li class="nav-item">
+				        <a class="nav-link" style="font-family: “Arial Rounded MT Bold”, “Helvetica Rounded”, Arial, sans-serif;" href="#"><i class="fa fa-users" aria-hidden="true"></i> About Us</a>
+				      </li>&nbsp;
+
+				      <li class="nav-item">
+				        <a class="nav-link" style="font-family: “Arial Rounded MT Bold”, “Helvetica Rounded”, Arial, sans-serif;" href="#"><i class="fa fa-comments" aria-hidden="true"></i> FAQ</a>
+				      </li>&nbsp;
+
+				      <li class="nav-item">
+				        <a class="nav-link" style="font-family: “Arial Rounded MT Bold”, “Helvetica Rounded”, Arial, sans-serif;" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Contact Us</a>
+				      </li>&nbsp;
+
+
+			    </ul>
+
+
+			   <form class="form-inline my-2 my-lg-0">
+			    	<a href="" class="btn purple-gradient btn-rounded" data-toggle="modal" data-target="#modalRegisterForm">Sign Up</a>
+			    	<a href="" class="btn blue-gradient waves-effect" data-toggle="modal" data-target="#modalLoginForm">Sign in</a>
+
+			    </form> 
+
+		  </div>
+
+		</nav> <!-- end of navigation bar -->
+
+
+
+				<!-- sign up modal form -->
+
+				<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+					  aria-hidden="true">
+					  <div class="modal-dialog modal-notify modal-info" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header text-center">
+					        <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body mx-3">
+					        <div class="md-form mb-5">
+					          <i class="fas fa-user prefix grey-text"></i>
+					          <input type="text" id="orangeForm-name" class="form-control validate">
+					          <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
+					        </div>
+					        <div class="md-form mb-5">
+					          <i class="fas fa-envelope prefix grey-text"></i>
+					          <input type="email" id="orangeForm-email" class="form-control validate">
+					          <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
+					        </div>
+
+					        <div class="md-form mb-4">
+					          <i class="fas fa-lock prefix grey-text"></i>
+					          <input type="password" id="orangeForm-pass" class="form-control validate">
+					          <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
+					        </div>
+
+					      </div>
+					      <div class="modal-footer d-flex justify-content-center">
+					        <button class="btn purple-gradient">Sign up</button>
+					      </div>
+					       <div class="modal-footer d-flex justify-content-center">
+					        <a class="btn-floating btn-lg purple-gradient z-depth-2"><i class="fab fa-google" style="color: white"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+					        <a class="btn-floating btn-lg blue-gradient z-depth-2"><i class="fab fa-facebook-f" style="color: white"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+					        <a class="btn-floating btn-lg aqua-gradient z-depth-2"><i class="fab fa-twitter" style="color: white"></i></a>
+
+					      </div> 
+					    </div>
+					  </div>
+					</div>
+					<br> 
+					<br>
+					<br>
+
+
+				<!-- Sign In Modal form -->
+
+					<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+					  <div class="modal-dialog modal-notify modal-info" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header text-center">
+					        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body mx-3">
+					        <div class="md-form mb-5">
+					          <i class="fas fa-envelope prefix grey-text"></i>
+					          <input type="email" id="defaultForm-email" class="form-control validate">
+					          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+					        </div>
+
+					        <div class="md-form mb-4">
+					          <i class="fas fa-lock prefix grey-text"></i>
+					          <input type="password" id="defaultForm-pass" class="form-control validate">
+					          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+					        </div>
+
+					      </div>
+					      <div class="modal-footer d-flex justify-content-center">
+					        <button class="btn blue-gradient">Login</button>
+					       </div>
+					       <div class="modal-footer d-flex justify-content-center">
+					        <a class="btn-floating btn-lg purple-gradient z-depth-2"><i class="fab fa-google" style="color: white"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+					        <a class="btn-floating btn-lg blue-gradient z-depth-2"><i class="fab fa-facebook-f" style="color: white"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+					        <a class="btn-floating btn-lg aqua-gradient z-depth-2"><i class="fab fa-twitter" style="color: white"></i></a>
+
+					      </div>    
+					    </div>
+					  </div>
+					</div>
+
+					<!-- Sign in Modal form end -->
+
+		&nbsp;
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  			<ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+
+			 <div class="carousel-inner">
+
+			    <div class="carousel-item active" style="height: 400px">
+
+			      <img class="w-100" src="c11.jpg" alt="First slide">
+
+			      <div class="carousel-caption d-none d-md-block">
+			    		<h5>First Slide</h5>
+			    		<p>Our product support both mobile & laptop devices</p>
+			  	  </div>
+
+			    </div>
+
+			   <div class="carousel-item" style="height: 400px">
+
+			      <img class="d-block w-100" src="c21.jpg" alt="Second slide">
+
+			      <div class="carousel-caption d-none d-md-block">
+			    		<h5>Second Slide</h5>
+			    		<p>Our product support both mobile & laptop devices</p>
+			   	  </div>
+
+			   </div>
+
+			    <div class="carousel-item" style="height: 400px">
+
+			      <img class="d-block w-100" src="c14.jpg" alt="Third slide">
+
+			      <div class="carousel-caption d-none d-md-block">
+			    		<h5>Third Slide</h5>
+			    		<p>Our product support both mobile & laptop devices</p>
+			  	  </div>
+
+			    </div>
+
+			  </div>
+
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+		</div> <!-- end of slider -->
+		<br>
+		<div class="container">
+			<h1 class="display-4" align="center"> Our Product Features </h1>&nbsp;
+
+		  <div class="row">
+
+		    <div class="col-sm-4 border bg-light shadow-lg p-3 mb-4 bg-white rounded">
+		    	<div class="card-group">
+				  <div id="card1" class="card">
+				    <img src="C:\\Users\\rathakur\\Desktop\\New app\\New folder (2)\\New folder\\Product\\heroku\\myvirtualclassroom\\images\\gif2.gif" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">Screen Control</h5>
+				      <p class="card-text">This Feature have video display, capable of simultaneous video and audio for communication between people in real time.  </p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <a href="#" class="btn btn-primary">know more</a>
+				    </div>
+				  </div>
+				</div>
+		    </div> <!-- end of first column -->
+
+		    <div class="col-sm-4 border bg-light shadow-lg p-3 mb-4 bg-white rounded">
+		    	<div class="card-group">
+				  <div id="card1" class="card">
+				    <img src="C:\\Users\\rathakur\\Desktop\\New app\\New folder (2)\\New folder\\Product\\heroku\\myvirtualclassroom\\images\\videochat4.gif" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">Video Calling</h5>
+				      <p class="card-text">This Feature have video display, capable of simultaneous video and audio for communication between people in real time. </p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <a href="#" class="btn btn-primary">know more</a>
+				    </div>
+				  </div>
+				</div>
+
+		    </div> <!-- end of second coulumn -->
+
+
+		    <div class="col-sm-4 border bg-light shadow-lg p-3 mb-4 bg-white rounded" style="column-gap: 10px;">
+		    	<div class="card-group">
+				  <div id="card1" class="card">
+				    <img src="C:\\Users\\rathakur\\Desktop\\New app\\New folder (2)\\New folder\\Product\\heroku\\myvirtualclassroom\\images\\videochat4.gif" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">Video Calling</h5>
+				      <p class="card-text">This Feature have video display, capable of simultaneous video and audio for communication between people in real time. </p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <a href="#" class="btn btn-primary">know more</a>
+				    </div>
+				  </div>
+				</div>
+
+		    </div> <!-- end of third coulumn -->
+
+		    
+
+		  </div> <!-- end of first row -->
+
+		  <div class="row">
+
+		    
+		    <div class="col-md-4 border bg-light shadow p-3 mb-4 bg-white rounded">
+		    	<div class="card-group">
+				  <div id="card1" class="card">
+				    <img src="C:\\Users\\rathakur\\Desktop\\New app\\New folder (2)\\New folder\\Product\\heroku\\myvirtualclassroom\\images\\g2.gif" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">Screen Sharing</h5>
+				      <p class="card-text">This Feature have video display, capable of simultaneous video and audio for communication between people in real time. </p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <a href="#" class="btn btn-primary">know more</a>
+				    </div>
+				  </div>
+				</div>
+
+		    </div> <!-- end of second coulumn -->
+
+		    
+		    <div class="col-md-4 border bg-light shadow p-3 mb-4 bg-white rounded">
+		    	<div class="card-group">
+				  <div id="card1" class="card">
+				    <img src="C:\\Users\\rathakur\\Desktop\\New app\\New folder (2)\\New folder\\Product\\heroku\\myvirtualclassroom\\images\\g1.gif" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">Video Presentation</h5>
+				      <p class="card-text">This Feature have video display, capable of simultaneous video and audio for communication between people in real time.  </p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <a href="#" class="btn btn-primary">know more</a>
+				    </div>
+				  </div>
+				</div>
+		    </div> <!-- end of third column -->
+
+		    
+		    <div class="col-md-4 border bg-light shadow p-3 mb-4 bg-white rounded">
+		    	<div class="card-group">
+				  <div id="card1" class="card">
+				    <img src="C:\\Users\\rathakur\\Desktop\\New app\\New folder (2)\\New folder\\Product\\heroku\\myvirtualclassroom\\images\\g1.gif" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">Video Presentation</h5>
+				      <p class="card-text">This Feature have video display, capable of simultaneous video and audio for communication between people in real time.  </p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      <a href="#" class="btn btn-primary">know more</a>
+				    </div>
+				  </div>
+				</div>
+		    </div> <!-- end of third column -->
+
+		  </div> <!-- end of second row -->
+
+
+
+		</div> <!-- end of container -->
+		<br>
+		<br>
+
+
+
+<!-- Pricing Structure -->
+		<div class="container px-lg-5">
+			<h1 class="display-4" align="center">Our Plans & Details </h1> &nbsp;
+
+				<div class="demo">
+				    
+				    <div class="container">
+				        
+				        <div class="row">
+
+
+				            <div class="col-md-4 col-sm-6">
+				                <div class="pricingTable">
+				                    <div class="pricing-content">
+				                        <div class="pricingTable-header">
+				                            <h3 class="title">Trial</h3>
+				                        </div>
+				                        <ul class="content-list">
+				                            <li>50GB Disk Space</li>
+				                            <li>50 Email Accounts</li>
+				                            <li>50GB Bandwidth</li>
+				                            <li class="disable">Maintenance</li>
+				                            <li class="disable">15 Subdomains</li>
+				                        </ul>
+				                        <div class="price-value">
+				                            <span class="amount">₹10.00</span>
+				                            <span class="duration">per month</span>
+				                        </div>
+				                        <div class="pricingTable-signup">
+				                            <a href="#">Sign Up</a>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+
+
+				            <div class="col-md-4 col-sm-6">
+				                <div class="pricingTable blue">
+				                    <div class="pricing-content">
+				                        <div class="pricingTable-header">
+				                            <h3 class="title">Standard</h3>
+				                        </div>
+				                        <ul class="content-list">
+				                            <li>50GB Disk Space</li>
+				                            <li>50 Email Accounts</li>
+				                            <li>50GB Bandwidth</li>
+				                            <li>Maintenance</li>
+				                            <li class="disable">15 Subdomains</li>
+				                        </ul>
+				                        <div class="price-value">
+				                            <span class="amount">₹20.00</span>
+				                            <span class="duration">per month</span>
+				                        </div>
+				                        <div class="pricingTable-signup">
+				                            <a href="#">Sign Up</a>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+
+
+				            <div class="col-md-4 col-sm-6">
+				                <div class="pricingTable magenta">
+				                    <div class="pricing-content">
+				                        <div class="pricingTable-header">
+				                            <h3 class="title">Business</h3>
+				                        </div>
+				                        <ul class="content-list">
+				                            <li>50GB Disk Space</li>
+				                            <li>50 Email Accounts</li>
+				                            <li>50GB Bandwidth</li>
+				                            <li class="disable">Maintenance</li>
+				                            <li class="disable">15 Subdomains</li>
+				                        </ul>
+				                        <div class="price-value">
+				                            <span class="amount">₹10.00</span>
+				                            <span class="duration">per month</span>
+				                        </div>
+				                        <div class="pricingTable-signup">
+				                            <a href="#">Sign Up</a>
+				                        </div>
+				                    </div>
+				                </div>
+				            </div>
+				        
+				       </div>
+				    
+				    </div>
+				
+				</div>
+
+			</div> <!-- end of pricing section -->
+			<br>
+			<br>
+
+
+			<!-- About US section code -->
+
+				<div class="container">
+
+					<h1 class="display-4" align="center">Our Aamzing Team</h1>
+					&nbsp;
+
+					<!-- Card -->
+						<div class="card-deck">
+
+
+						<div class="card">
+						  <!-- Card image -->
+						  <div class="view overlay">
+						    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+						      alt="Card image cap">
+						    <a href="#!">
+						      <div class="mask rgba-white-slight"></div>
+						    </a>
+						  </div>
+
+						  <!-- Card content -->
+						  <div class="card-body">
+
+						    <!-- Title -->
+						    <h4 class="card-title">Card title</h4>
+						    <!-- Text -->
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+						      content.</p>
+						    <!-- Button -->
+						    <button type="button" class="btn blue lighten-2"><b><i class="fab fa-google" style="font-size:18px" aria-hidden="true"></i></b></button>
+						    <button type="button" class="btn light-blue lighten-2"><b><i class="fab fa-facebook-f" style="font-size:18px" aria-hidden="true"></i></b></button>
+    						<button type="button" class="btn cyan lighten-2"><b><i class="fab fa-twitter" style="font-size:18px" aria-hidden="true"></i></b></button>
+
+						  </div>
+
+						 </div> 
+
+
+
+						 <div class="card">
+						  <!-- Card image -->
+						  <div class="view overlay">
+						    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+						      alt="Card image cap">
+						    <a href="#!">
+						      <div class="mask rgba-white-slight"></div>
+						    </a>
+						  </div>
+
+						  <!-- Card content -->
+						  <div class="card-body">
+
+						    <!-- Title -->
+						    <h4 class="card-title">Card title</h4>
+						    <!-- Text -->
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+						      content.</p>
+						    <!-- Button -->
+						    <button type="button" class="btn blue lighten-2"><b><i class="fab fa-google" style="font-size:18px" aria-hidden="true"></i></b></button>
+						    <button type="button" class="btn light-blue lighten-2"><b><i class="fab fa-facebook-f" style="font-size:18px" aria-hidden="true"></i></b></button>
+    						<button type="button" class="btn cyan lighten-2"><b><i class="fab fa-twitter" style="font-size:18px" aria-hidden="true"></i></b></button>
+
+						  </div>
+						  
+						 </div> 
+
+
+
+						<div class="card">
+						  <!-- Card image -->
+						  <div class="view overlay">
+						    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+						      alt="Card image cap">
+						    <a href="#!">
+						      <div class="mask rgba-white-slight"></div>
+
+						    </a>
+						  </div>
+
+						  <!-- Card content -->
+						  <div class="card-body">
+
+						    <!-- Title -->
+						    <h4 class="card-title">Card title</h4>
+						    <!-- Text -->
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+						      content.</p>
+						    <!-- Button -->
+						    <button type="button" class="btn blue lighten-2"><b><i class="fab fa-google" style="font-size:18px" aria-hidden="true"></i></b></button>
+						    <button type="button" class="btn light-blue lighten-2"><b><i class="fab fa-facebook-f" style="font-size:18px" aria-hidden="true"></i></b></button>
+    						<button type="button" class="btn cyan lighten-2"><b><i class="fab fa-twitter" style="font-size:18px" aria-hidden="true"></i></b></button>
+
+
+
+						  </div>
+						  
+						 </div> 
+
+						</div>
+						<!-- Card -->
+
+
+
+
+				</div>	<!-- team card -->	
+
+
+
+					<section class="team-section text-center my-5">
+
+					  <!-- Section heading -->
+					  <h2 class="h1-responsive font-weight-bold my-5">Our amazing team</h2>
+					  <!-- Section description -->
+					  <p class="grey-text w-responsive mx-auto mb-5">Our team draws on broad industry experience and networks to create the most powerful outcomes for our clients </p>
+
+					  <!-- Grid row -->
+					  <div class="row">
+
+					    <!-- Grid column -->
+					    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+					      <div class="avatar mx-auto">
+					        <img src="sa1.jpeg" class="rounded-circle z-depth-1"
+					          alt="Sample avatar">
+					      </div>
+					      <h5 class="font-weight-bold mt-4 mb-3">Sachin J. </h5>
+					      <p class="text-uppercase blue-text"><strong>Core Developer</strong></p>
+					      <p class="grey-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+					        adipisci sed quia non numquam modi tempora eius.</p>
+					      <ul class="list-unstyled mb-0">
+					        <!-- Facebook -->
+					        <a class="p-2 fa-lg fb-ic">
+					          <i class="fab fa-facebook-f blue-text"> </i>
+					        </a>
+					        <!-- Twitter -->
+					        <a class="p-2 fa-lg tw-ic">
+					          <i class="fab fa-twitter blue-text"> </i>
+					        </a>
+					        <!-- Instagram -->
+					        <a class="p-2 fa-lg ins-ic">
+					          <i class="fab fa-instagram blue-text"> </i>
+					        </a>
+					      </ul>
+					    </div>
+					    <!-- Grid column -->
+
+					    <!-- Grid column -->
+					    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+					      <div class="avatar mx-auto">
+					        <img src="v1.jpeg" class="rounded-circle z-depth-1"
+					          alt="Sample avatar">
+					      </div>
+					      <h5 class="font-weight-bold mt-4 mb-3">Vishal S.</h5>
+					      <p class="text-uppercase blue-text"><strong>Marketing Analyst</strong></p>
+					      <p class="grey-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem ipsa accusantium
+					        doloremque rem laudantium totam aperiam.</p>
+					      <ul class="list-unstyled mb-0">
+					        <!-- Facebook -->
+					        <a class="p-2 fa-lg fb-ic">
+					          <i class="fab fa-facebook-f blue-text"> </i>
+					        </a>
+					        <!-- Instagram -->
+					        <a class="p-2 fa-lg ins-ic">
+					          <i class="fab fa-instagram blue-text"> </i>
+					        </a>
+					      </ul>
+					    </div>
+					    <!-- Grid column -->
+
+					    <!-- Grid column -->
+					    <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
+					      <div class="avatar mx-auto">
+					        <img src="aj1.jpeg" class="rounded-circle z-depth-1"
+					          alt="Sample avatar">
+					      </div>
+					      <h5 class="font-weight-bold mt-4 mb-3">Ajit V.</h5>
+					      <p class="text-uppercase blue-text"><strong>Software Tester</strong></p>
+					      <p class="grey-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+					        mollit anim est fugiat nulla id eu laborum.</p>
+					      <ul class="list-unstyled mb-0">
+					        <!-- Facebook -->
+					        <a class="p-2 fa-lg fb-ic">
+					          <i class="fab fa-facebook-f blue-text"> </i>
+					        </a>
+					        <!-- Instagram -->
+					        <a class="p-2 fa-lg ins-ic">
+					          <i class="fab fa-instagram blue-text"> </i>
+					        </a>
+					        <!-- Dribbble -->
+					        <a class="p-2 fa-lg ins-ic">
+					          <i class="fab fa-dribbble blue-text"> </i>
+					        </a>
+					      </ul>
+					    </div>
+					    <!-- Grid column -->
+
+					    <!-- Grid column -->
+					    <div class="col-lg-3 col-md-6">
+					      <div class="avatar mx-auto">
+					        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1"
+					          alt="Sample avatar">
+					      </div>
+					      <h5 class="font-weight-bold mt-4 mb-3">Tom Adams</h5>
+					      <p class="text-uppercase blue-text"><strong>Backend developer</strong></p>
+					      <p class="grey-text">Perspiciatis repellendus ad odit consequuntur, eveniet earum nisi qui consectetur
+					        totam officia voluptates perferendis voluptatibus aut.</p>
+					      <ul class="list-unstyled mb-0">
+					        <!-- Facebook -->
+					        <a class="p-2 fa-lg fb-ic">
+					          <i class="fab fa-facebook-f blue-text"> </i>
+					        </a>
+					        <!-- Github -->
+					        <a class="p-2 fa-lg ins-ic">
+					          <i class="fab fa-github blue-text"> </i>
+					        </a>
+					      </ul>
+					    </div>
+					    <!-- Grid column -->
+
+					  </div>
+					  <!-- Grid row -->
+
+					</section> <!-- end of team section -->
+
+
+					<!-- Contact US Form -->
+
+
+							<div class="container">
+
+								<h1 class="display-4" align=" center"> Contact Us </h1> &nbsp;
+
+
+									<!-- Contact US form -->
+
+												<div class="container">	
+
+													<div class="row">
+
+														<div class="col-lg-5 mb-lg-0 mb-4">
+
+
+
+															<div class="card">
+
+															        <div class="card-body">
+															          <!-- Header -->
+															          <div class="form-header example z-depth-1 rounded" align="center">
+															          	<p style="height: 1px; width: 1px; " >
+															            <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to us:</h3></p>
+															          </div>
+															          <p class="dark-grey-text">You can reach us anytime.</p>
+															          <!-- Body -->
+															          <div class="md-form">
+															            <i class="fas fa-user prefix grey-text"></i>
+															            <input type="text" id="form-name" class="form-control">
+															            <label for="form-name">Your name</label>
+															          </div>
+															          <div class="md-form">
+															            <i class="fas fa-envelope prefix grey-text"></i>
+															            <input type="text" id="form-email" class="form-control">
+															            <label for="form-email">Your email</label>
+															          </div>
+															          <div class="md-form">
+															            <i class="fas fa-tag prefix grey-text"></i>
+															            <input type="text" id="form-Subject" class="form-control">
+															            <label for="form-Subject">Subject</label>
+															          </div>
+															          <div class="md-form">
+															            <i class="fas fa-pencil-alt prefix grey-text"></i>
+															            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+															            <label for="form-text">Send message</label>
+															          </div>
+															          <div class="text-center">
+															            <button class="btn aqua-gradient ">Submit</button>
+															          </div>
+															        </div>
+															      </div>
+															      <!-- Form with header -->
+
+															    </div>
+															    <!-- Grid column -->
+
+
+															    
+															     <!-- Grid column -->
+																    <div class="col-lg-7">
+																		<!--Google map-->
+																		<div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 400px">
+																			  <iframe width="100%" height="100%" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Mumbai%2CIndia%20+()&ie=UTF8&t=&z=14&iwloc=B&output=embed	" frameborder="0"
+																			    style="border:0" allowfullscreen></iframe>
+																			</div>
+
+																		<!--Google Maps-->
+
+																			&nbsp;
+																		    <div class="row text-center">
+																		    	<br>
+																		        <div class="col-md-4">
+
+																		        	<a class="btn-floating btn-lg purple-gradient z-depth-2"><i class="fas fa-map-marker-alt"></i></a>
+																		          
+																		          
+																		          <p>Mumbai, 400071</p>
+																		          <p class="mb-md-0">Maharashtra, India</p>
+																	        </div>
+																				<div class="col-md-4">
+
+																					<a class="btn-floating btn-lg purple-gradient z-depth-2"><i class="fas fa-phone"></i></a>
+																				          
+																				          <p>+ 01 234 567 89</p>
+																				          <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
+																				        </div>
+																				        <div class="col-md-4">
+																				        	<a class="btn-floating btn-lg purple-gradient z-depth-2"><i class="fas fa-envelope"></i></a>
+																	 
+																				          <p>info@gmail.com</p>
+																				          <p class="mb-0">sale@gmail.com</p>
+																				        </div>
+																				      </div>
+
+
+																    </div>
+																    <!-- Grid column -->
+
+
+														</div>
+
+													</div> <!-- contact us form -->
+
+							</div>
+
+						<!-- end of contact us section -->
+						<br>
+						<br>
+
+
+
+
+
+
+
+
+
+		<!-- Starting of footer -->
+		<footer  style="background-image: linear-gradient(to right, #2bc0e4 , #eaecc6);">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 text-center text-md-left ">
+                    
+                    <div class="py-0">
+                        <h3 class="my-4 text-black">About<span class="mx-2 font-italic text-danger ">myvirtualclassroom</span></h3>
+ 
+                        <p class="footer-links font-weight-bold">
+                            <a class="text-black" href="#">Home</a>
+                            |
+                            <a class="text-black" href="#">Blog</a>
+                            |
+                            <a class="text-black" href="#">About</a>
+                            |
+                            <a class="text-black" href="#">Contact</a>
+                        </p>
+                        <p class="text-black py-4 mb-4">&copy;2020 Websoul Solutions Pvt. Ltd.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-black text-center text-md-left ">
+                    <div class="py-2 my-4">
+                        <div>
+                            <p class="text-black"> <i class="fa fa-map-marker mx-2 "></i>
+                                    309 - Rupa Solitaire,
+                                   Bldg. No. A - 1, Sector - 1
+                                  Mahape, Navi Mumbai - 400710</p>
+                        </div>
+ 
+                        <div> 
+                            <p><i class="fa fa-phone  mx-2 "></i> +91 22-27782183</p>
+                        </div>
+                        <div>
+                            <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:support@myvirtualclassroom.com">myvirtualclassroom.com</a></p>
+                        </div>  
+                    </div>  
+                </div>
+                
+                <div class="col-md-4 text-black my-4 text-center text-md-left ">
+                    <span class=" font-weight-bold ">About the Company</span>
+					<p class="text-muted my-2" >We offer creating websites & applications as per new Technology, Design, Management, Science and Humanities.</p>
+                    <div class="py-2">
+                        <a href="#"><i class="fab fa-facebook-square fa-2x  mx-3"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-square fa-2x text-danger mx-3"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square fa-2x  mx-3"></i></a>
+                        <a href="#"><i class="fab fa-youtube-square fa-2x text-danger mx-3"></i></a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+     </footer>
+     <!-- end of footer -->
+ 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
